@@ -1,0 +1,109 @@
+/* Regole Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Fine Regole Reset */
+
+/* Generali */
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.container {
+  margin: auto;
+  width: 1024px;
+
+}
+li {
+  list-style: none;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* Fine Regole Generali */
+
+/* Header */
+header {
+  color: white;
+  background-color: #0b325a;
+  height: 500px;
+  background-image: url(../img/background-header.png);
+  background-position: 110% 110%;
+  background-repeat: no-repeat;
+  background-size: 1000px;
+  position: relative;
+}
+/* Inizio Navigation */
+/** Menu **/
+header .navigation {
+  padding-top: 10px;
+}
+header .navigation .col {
+  float: left;
+}
+header .navigation .menu {
+  margin-top: 16px;
+}
+
+header .navigation .menu-center {
+  width: 45%;
+}
+header .navigation .menu-right {
+  width: 40%;
+  text-align: right;
+}
+header .navigation .logo {
+  width: 15%;
+}
+header .navigation .menu li {
+  display: inline-block;
+}
+header .navigation .menu li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: white;
+  margin-left: 10px;
+}
+header .navigation .menu li a.login {
+  padding: 5px 18px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+header .navigation .menu li a.menu-item-green {
+  padding: 5px 18px;
+  border: 1px solid #7cbb02;
+  background-color: #7cbb02;
+  border-radius: 5px;
+}
+/** Fine Menu **/
+/* Fine Navigation */
+
+/* Inizio Teaser */
+header .teaser {
+  width: 33%;
+  position: absolute;
+  top: 38%;
+}
+header .teaser h1 {
+  font-size: 44px;
+  font-weight:400;
+}
+header .teaser a.cta {
+  padding: 24px 18px;
+  border: 2px solid #7cbb02;
+  background-color: #7cbb02;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  top: 127%;
+}
+/* Fine Teaser */
+/* Fine Header */
