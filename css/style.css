@@ -107,3 +107,130 @@ header .teaser a.cta {
 }
 /* Fine Teaser */
 /* Fine Header */
+
+/* Main */
+main {
+  position: relative;
+}
+/* Shouter */
+main .shouter {
+  text-align: center;
+  background-color: lightgray;
+  padding: 30px 0;
+}
+main .shouter .title {
+  font-size: 20px;
+  margin-bottom: 10px;
+
+
+}
+main .shouter .subtitle {
+  font-size: 15px;
+  color: gray;
+}
+/* FineShouter */
+/* Regole Upper */
+main .upper {
+  height: 400px;
+  margin-top: 40px;
+  margin-bottom: 96px;
+}
+main .upper .col {
+  margin-right: 0,5%;
+
+}
+main .upper .left {
+  width: 33%;
+  float: left;
+}
+main .upper .middle {
+  width: 33%;
+  float: left;
+}
+main .upper  .right {
+  width: 33%;
+  float: left;
+}
+main .upper img {
+  width: 50%;
+  margin-bottom: 20px;
+}
+main .upper .left img {
+  width: 30%;
+}
+main .upper .right img {
+  width: 36%;
+}
+main .upper .left, .middle, .right {
+  padding: 8px;
+  text-align: center;
+  color: gray;
+}
+main .upper .title-green {
+  color: #7cbb02;
+  font-size: 20px;
+}
+main .upper .col hr {
+  margin: 20px 108px;
+  color: lightgray;
+}
+/* Fine Regole Upper */
+
+main .intermezzo {
+  color: lightgray;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+/* Regole Downer */
+main .downer .col  {
+  float: left;
+  width: 45%;
+}
+main .downer .down-text {
+  padding: 10px;
+  margin-left: 66px;
+}
+main .downer .title  {
+  font-size: 24px;
+  /* margin-bottom: 10px; */
+}
+main .downer .abstract  {
+  color: gray;
+  font-size: 16px;
+  /* margin-bottom: 10px; */
+}
+main .downer a {
+  font-size: 14px;
+
+}
+main .down-text>p {
+  margin-bottom: 10px;
+}
+/* Regole Downer */
+/* Fine Main */
+
+/* Footer */
+footer {
+  height: 150px;
+  background-color: lightgray;
+  position: relative;
+}
+footer .help a {
+  padding: 18px 9px;
+  border: 1px solid #7cbb02;
+  background-color: #7cbb02;
+  border-radius: 5px 5px 0 0;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  position: absolute;
+  bottom: 0;
+  right: 24%;
+  z-index: 10;
+  position: fixed;
+
+}
+/* Fine Footer */
