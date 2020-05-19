@@ -65,9 +65,9 @@ header .navigation .menu li {
 header .navigation .menu li a {
   text-decoration: none;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 11px;
   color: white;
-  margin-left: 10px;
+  margin-right: 10px;
 }
 header .navigation .menu li a.login {
   padding: 5px 18px;
@@ -121,8 +121,6 @@ main .shouter {
 main .shouter .title {
   font-size: 20px;
   margin-bottom: 10px;
-
-
 }
 main .shouter .subtitle {
   font-size: 15px;
@@ -135,10 +133,7 @@ main .upper {
   margin-top: 40px;
   margin-bottom: 96px;
 }
-main .upper .col {
-  margin-right: 0,5%;
 
-}
 main .upper .left {
   width: 33%;
   float: left;
@@ -161,7 +156,9 @@ main .upper .left img {
 main .upper .right img {
   width: 36%;
 }
-main .upper .left, .middle, .right {
+main .upper .left,
+main .upper .middle,
+main .upper .right {
   padding: 8px;
   text-align: center;
   color: gray;
